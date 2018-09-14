@@ -1,0 +1,47 @@
+.banner{
+	width: 1349px;
+	height: 500px;
+	margin:0 auto;
+	overflow: hidden;
+	position:relative;
+}
+.banner .btn{
+	width: 30px;
+	height: 60px;
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	top:220px;
+	text-align: center;
+	color:#fff;
+	font:20px/60px '宋体';
+}
+.banner .btn:hover{
+	background: rgba(0,0,0,0.6);
+}
+.banner .btn_right{
+	right: 0px;
+}
+.banner ul{
+	position: absolute;
+	bottom: 35px;
+	width: 100px;
+	left: 600px;
+}
+.banner li{
+	width: 12px;
+	height: 12px;
+	background: #fff;
+	border-radius: 50%;
+	float:left;
+	margin-left: 5px;
+}
+.banner li.active{
+	background-color: brown;
+}
+.banner .bn_bg{
+	width: 8094px;
+	position: absolute;
+}
+.banner .item{
+	float: left;
+}

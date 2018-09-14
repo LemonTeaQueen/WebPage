@@ -1,0 +1,270 @@
+body{
+    background-color: #f1f1f1;
+}
+header{
+    background-color: #fff;
+    border-bottom:1px solid #ddd;
+}
+/* 页面位置 */
+.location p{
+    line-height: 30px;
+    color: #444;
+    font-size: 14px;
+}
+/* 内容摘要 */
+.article {
+    width: 720px;
+    height: 240px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+}
+.pic01{
+    background: url(../images/design-picture1.jpg) no-repeat;
+}
+.pic02{
+    background: url(../images/design-picture2.jpg) no-repeat;
+}
+.pic03{
+    background: url(../images/design-picture3.jpg) no-repeat;
+}
+.pic04{
+    background: url(../images/design-picture4.jpg) no-repeat;
+}
+.pic05{
+    background: url(../images/design-picture5.jpg) no-repeat;
+}
+.picture{
+    width: 340px;
+    height: 240px;
+    float: left;
+    background-size: 100%,100% ;
+    background-position: center center;
+    transition:  all 0.5s;
+
+}
+.picture:hover {
+    background-size: 120%,120%;
+}
+.article-content{
+    width: 350px;
+    height: 240px;
+    padding: 0 10px 10px 10px;
+    float: right;
+}
+.content-title{
+    color: #444;
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+.content-title:hover{
+    color: #2f889a;
+}
+.content-text{
+    line-height: 24px;
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 23px;
+}
+.article-content span{
+    font-size: 14px;
+    color: #999;
+}
+.article-content a{
+    font-size: 14px;
+    color: #2f889a;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.article .tab{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 5px;
+    height: 25px;
+    background-color:  #2f889a;
+}
+.article .label{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    line-height: 28px;
+    padding: 0 10px;
+    color: #fff;
+    background-color:  #2f889a;
+    opacity: 0.8;
+}
+.article .btn{
+    position: absolute;
+    bottom: 18px;
+    right: -1px;
+    background-color: #398898;
+    color: #fff;
+    line-height: 30px;
+    padding: 1px 15px;
+    border-radius: 2px 0 0 2px;
+}
+.article .btn:hover{
+    background-color:  #595959;
+}
+/* 清除浮动 */
+.content{
+    padding-bottom: 30px; 
+    overflow: hidden;
+}
+/* 内容摘要 左浮动 */
+.introduce{
+    float: left;
+}
+
+
+
+/* 各个标签共同样式 右浮动*/
+.recommend,.find,.like,.hot{
+    width: 320px;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    float: right;
+    margin-bottom: 10px;
+}
+/* 各个标签头部 */
+.common-title{
+    width: 100%;
+    height: 39px;
+    font-size: 0;
+    border-bottom:1px solid #ddd;
+    background-color: #f8f8f8;
+}
+.common-title img{
+    vertical-align: bottom;
+    border-right: 1px solid #ddd;
+}
+.common-title a{
+    line-height: 39px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+/* 本站推荐 */
+.recommend-content{
+    padding: 15px;
+}
+.recommend-li{
+    overflow: hidden;
+    border-bottom: 1px dashed #ddd;
+}
+.recommend-content ul li:last-child{
+    border: none;
+}
+.p1{
+    background: url(../images/design-pic1.jpg) no-repeat; 
+}
+.p2{
+    background: url(../images/design-pic2.jpg) no-repeat; 
+}
+.p3{
+    background: url(../images/design-pic3.jpg) no-repeat; 
+}
+.p4{
+    background: url(../images/design-pic4.jpg) no-repeat; 
+}
+.p5{
+    background: url(../images/design-pic5.jpg) no-repeat; 
+}
+.p6{
+    background: url(../images/design-pic6.jpg) no-repeat; 
+}
+.p7{
+    background: url(../images/design-pic7.jpg) no-repeat; 
+}
+.recommend-pic{
+    width: 100px;
+    height: 75px;
+    margin: 8px 8px 8px 0;
+    background-size: 95% 95%;
+    float: left;
+    background-position: right;
+    transition:  all 1s;
+}
+.recommend-pic:hover{
+    background-size: 120% 120%;
+}
+.recommend-li a{
+    width: 154px;
+    height: 69px; 
+    left: left;
+}
+.recommend-li span{
+    font-size: 14px;
+    color: #555;
+    vertical-align: bottom;
+    margin-left: 5px;
+}
+.recommend-txt{
+    margin-top:5px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #555;
+    margin-bottom:8px; 
+
+}
+.recommend-txt:hover{
+    color: #2f889a;
+}
+
+/* 搜索发现 */
+.find-box{
+    padding: 30px 30px 20px 30px;
+    font-size: 0;
+}
+.find-box input{
+    width: 165px;
+    font-size: 15px;
+    line-height: 39px;
+    color: #555;
+    padding: 0 10px;
+    border: 0;
+    background-color: #f1f1f1;
+    border-radius: 5px 0 0 5px;
+}
+.find-box  a{
+    padding: 10px 13px;
+    font-size: 14px;
+    color: #fff;
+    background-color:#2f889a;  
+    border-radius: 0 5px 5px 0;
+}
+.find-box a:hover{
+    background-color: #595959;
+}
+/* 大家喜欢 */
+.like-lis{
+    padding: 15px;
+}
+.like-lis li{
+    line-height: 26px;
+}
+.like-lis span{
+    padding: 1px 5px;
+    color: #fff;
+    background-color: #ddd;
+    border-radius: 3px;
+}
+.like-lis a{
+    margin-left: 5px;
+    color: #555;
+    font-size: 14px;
+}
+.like-lis .stress{
+    background-color:#2f889a;  
+}
+.like-lis a:hover{
+    color: #2f889a;
+}
+
